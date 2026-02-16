@@ -1,0 +1,50 @@
+# Generated invoice directories
+generated_invoices/
+dangerous_test_invoices/
+single_page_invoices/
+test_all_injections/
+example_invoices/
+example_invoices_dangerous/
+pen_test_invoices/
+security_test/
+xss_test/
+sql_test/
+csv_test/
+
+# Generated PDF and JSON files
+*.pdf
+*.json
+!requirements.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_*.pdf
+test_*.json
+*_test.pdf
+*_test.json
+
+# Generation summaries
+generation_summary.json
