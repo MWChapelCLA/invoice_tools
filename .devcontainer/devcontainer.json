@@ -1,0 +1,26 @@
+{
+  "name": "Invoice Tools Python Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.formatting.provider": "autopep8"
+      }
+    }
+  },
+
+  "postCreateCommand": "pip install --user -r requirements.txt",
+
+  "features": {},
+
+  "forwardPorts": [],
+
+  "remoteUser": "vscode"
+}

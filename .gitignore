@@ -1,3 +1,7 @@
+# Dev container - never ignore
+!.devcontainer/
+!.devcontainer/**
+
 # Generated invoice directories
 generated_invoices/
 dangerous_test_invoices/
@@ -15,6 +19,7 @@ csv_test/
 *.pdf
 *.json
 !requirements.txt
+!.devcontainer/*.json
 
 # Python cache
 __pycache__/
